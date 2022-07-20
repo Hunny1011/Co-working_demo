@@ -1,0 +1,409 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.clearfix { clear: both;}
+
+.commonpadding {padding: 40px 0px;}
+
+ul {list-style-type: none}
+
+a {text-decoration: none;}
+
+p{
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 35px;
+    letter-spacing: 1px
+}
+
+h3{
+    font-size: 30px;
+    letter-spacing: 1px
+}
+
+h5{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.subtitle{
+    color: rgb(31, 170, 175);
+    letter-spacing: 1px;
+    padding: 2px;
+    font-weight: bold;
+}
+
+/* --------------header----------------- */
+
+header{
+    width: 100%;
+    background-color: rgb(32, 34, 36);
+}
+
+header .logomenu ul {
+    float: left;
+    font-size: 17px;
+}
+
+header .icon ul {
+    float: right;
+    font-size: 17px;
+}
+
+header .logomenu a , header .icon a {color: white}
+
+header .logomenu li , header .icon li {
+    display: inline-block;
+    padding: 20px;
+}
+
+header .logomenu li a:hover {color: rgb(112, 214, 218);}
+
+header .icon li a:hover {color: rgb(112, 214, 218);}
+
+
+/* --------------frontimage----------------- */
+
+.frontimage{ width: 100%;}
+
+.frontimage #slider1 {position: relative;}
+
+.frontimage img {width: 100%;}
+
+.frontimage .text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%; left: 50%;
+    color: white;
+    text-align: center;
+}
+
+.frontimage .owl-dots {
+    position: absolute;
+    transform: translate(-50%, -95%);
+    top: 95%;
+    left: 50%;
+}
+    
+.frontimage .text h1 {
+    margin: 0;
+    padding: 0
+}
+    
+.frontimage .text p{ margin: 20px;}
+    
+.frontimage .text a {
+    border: none;
+    background-color: rgb(0, 145, 55);
+    padding: 10px 17px;
+    margin: 0;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    color: white;
+}
+    
+.frontimage a:hover{
+    border: none;
+    background-color: rgb(1, 110, 43);
+}
+
+/* --------------benefits 1stpart----------------- */
+    
+.first .part1 {
+    width: 50%;
+    line-height: 32px;
+    float: left;
+}
+
+.first .part2 {
+    width: 50%;
+    float: right;
+    line-height: 32px
+}
+
+/* --------------icons 2ndpart----------------- */
+
+.second {width: 100%;}
+
+.second .div1 {
+    width: 25%;
+    padding: 30px;
+    float: left;
+    text-align: center;
+}
+
+.second i{
+    font-size: 45px;
+    color: rgb(122, 221, 92);
+    padding: 10px;
+}
+
+.second h5{padding: 8px;}
+
+.second p{
+    line-height: 32px;
+    font-size: 15px;
+}
+
+/* --------------who we are 3rdpart----------------- */
+
+.third {width: 100%;}
+    
+.third .part1 {
+    width: 50%;
+    padding: 40px;
+    float: left;
+    padding: 240px 10px;
+}
+
+.third .part1 p {
+    line-height: 32px;
+    font-size: 15px;
+}
+
+.third .part1 .heading3 {
+    font-size: 48px;
+    letter-spacing: 1px
+}
+    
+.third .part2 {
+    width: 50%;
+    float: right;
+}
+
+.third .part2 img {width: 100%;}
+
+/* --------------images 4thpart----------------- */
+
+.fourth {width: 100%;}
+
+.fourth .part1{padding: 0px;
+    margin: 18px;
+    width: 30%;
+    height: auto;
+    position: relative;
+    float: left;
+}
+
+.fourth .part1 img {
+    width: 100%;
+    display: block;
+}
+
+.fourth .part2 .part2a {
+    width: 63.3%;
+    height: auto;
+    position: relative;
+    padding: 0px;
+    margin: 17px;
+    float: left;
+}
+
+.fourth .part2 .part2a img {
+    width: 100%;
+    display: block;
+}
+
+.fourth .part2 .part2b {width: 30%;
+    height: auto;
+    position: relative;
+    padding: 0px;
+    margin: 17px;
+    float: left;
+}
+
+.fourth .part2 .part2b img {
+    width: 100%;
+    display: block;
+}
+  
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(31, 170, 175);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.part1:hover .overlay, .part2a:hover .overlay, .part2b:hover .overlay {bottom: 0;height: 100%; }
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap}
+
+/* --------------examples 5thpart----------------- */
+
+.fifth {
+    width: 100%;
+    text-align: center;
+}
+
+.fifth h3{ padding-bottom: 20px;}
+
+#slider2 {position: relative;}
+
+#slider2 .owl-prev {
+    position: absolute;
+    transform: translate(0, -50%);
+    top: 50%;
+    left: 0%;
+    z-index: 1;
+    font-size: 40px;
+    color: white;
+}
+
+#slider2 .owl-next {
+    position: absolute;
+    transform: translate(0, -50%);
+    top: 50%;
+    right: 0%;
+    z-index: 1;
+    font-size: 40px;
+    color: white;
+}
+
+#slider2 .owl-prev:hover , #slider2 .owl-next:hover {
+    background: none;
+    color: rgb(36, 221, 228);
+}
+
+/* --------------kate white 6thpart----------------- */
+
+.sixth {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.sixth i {
+    font-size: 30px;
+    color: rgb(31, 170, 175)
+}
+
+.sixth p {
+    text-align: center;
+    width: 60%;
+    letter-spacing: 1px;
+    padding: 25px;
+    margin: auto;
+}
+
+.sixth h5 , .sixth aside {margin-bottom: 15px;}
+
+/* --------------Workspace 7thpart----------------- */
+
+.seventh{width: 100%;}
+
+.seventh .part1{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.seventh .part1 img {width: 100%;}
+    
+.seventh .part2{
+    width: 50%;
+    padding: 30px;
+    float: right;
+    padding: 60px 15px;
+}
+
+.seventh .part2 h3 {padding: 17px 9px;}
+
+.seventh .part2 li i{
+    color: rgb(31, 170, 175);
+    padding: 10px;
+}
+
+.seventh .part2 p {
+    line-height: 30px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.seventh .part2 a { border: none;
+    background-color: rgb(0, 145, 55);
+    padding: 10px;
+    width: 25%;
+    margin: 17px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.seventh a:hover{
+    border: none;
+    background-color: rgb(1, 110, 43);
+}
+
+/* --------------Followus 8thpart----------------- */
+
+.eighth {
+    width: 100%; 
+    text-align: center;
+}
+
+.eighth .block {
+    float: left;
+    width: 25%;
+    margin-top: 20px;
+    padding: 7px;
+}
+
+.eighth .block img {width: 100%;}
+
+/* --------------Footer----------------- */
+
+footer { width: 100%; height: auto; background-color: rgb(32, 34, 36); z-index:1;}
+
+footer .block1 {width: 31%; color: white; padding: 30px 10px; float: left}
+
+footer .block1 p{letter-spacing: 1px; padding: 19px 0px; font-size: 12px; line-height: 23px}
+
+footer .block1 li a{ color: rgb(112, 214, 218); text-align: center;padding: 5px; float: left}
+
+footer li a:hover {color: rgb(91, 172, 175);}
+
+footer .block1 .sub a {border: 1px solid grey; width: 90%; padding: 10px; display: inline-block;
+font-size: 13px; color: rgb(175, 175, 175); margin: 10PX 0PX;}
+
+footer .block2 {width: 31%; color: white; padding: 30px 10px; float: left}
+
+footer .block2 p{letter-spacing: 1px; padding: 19px 0px; font-size: 12px; line-height: 23px}
+
+footer .block2 i {padding: 15px 15px 15px 0px;}
+
+footer .block3 { width: 31%; color: white; padding: 30px 10px; float: left }
+
+footer .block3 ul{ padding: 10px 0px;}
+
+footer .block3 li {padding: 5px;}
+
+footer .block3 i {padding: 9px;}
+
+footer .block3 a {color: white; display: block;}
